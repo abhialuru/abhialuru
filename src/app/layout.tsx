@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Lavishly_Yours, Open_Sans } from "next/font/google";
 import "./globals.css";
+import ReactLenis from "lenis/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -9,6 +10,17 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const lavishly = Lavishly_Yours({
+  variable: "--font-lavishly",
+  weight: ["400"],
+  subsets: ["latin"],
+});
+
+const opensans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
 });
 
@@ -24,11 +36,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <ReactLenis root>
+        <body
+          className={`${opensans.className} ${lavishly.variable} antialiased`}
+        >
+          {children}
+        </body>
+      </ReactLenis>
     </html>
   );
 }
