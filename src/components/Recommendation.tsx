@@ -10,7 +10,7 @@ function Recommendation() {
         <h3 className="text-2xl font-semibold text-center">
           To Whom it may concern
         </h3>
-        <p className="text-sm md:text-base">
+        <p>
           Abhilash took ownership of both the UI/UX design (using Figma) and the
           frontend development (Nextjs, React, Typescript) for our web platform.
           He built an intuitive, responsive user interface, seamlessly

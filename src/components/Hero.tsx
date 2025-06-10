@@ -33,7 +33,7 @@ function Hero({ onMouseEnter, onMouseLeave }: HeroPropTypes) {
   });
 
   return (
-    <main className="w-full h-screen p-5 flex flex-col font-inter justify-between items-center overflow-hidden">
+    <main className="w-full h-[100svh] p-5 flex flex-col font-inter justify-between items-center overflow-hidden">
       <Navbar />
       <div className="w-full flex justify-between items-center">
         <div
