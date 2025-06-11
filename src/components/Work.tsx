@@ -9,7 +9,7 @@ interface WorkPropTypes {
 
 function Work({ onMouseEnter, onMouseLeave }: WorkPropTypes) {
   return (
-    <section className="w-full h-auto">
+    <section className="w-full h-auto pt-20">
       <Project
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}

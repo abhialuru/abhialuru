@@ -37,21 +37,12 @@ function Project({
           className="flex flex-col gap-4 w-full lg:w-[80%]"
         >
           <h3 className="text-2xl">{heading}</h3>
-          <p className="text-sm">{description}</p>
+          <p>{description}</p>
         </div>
-        <div className="flex gap-2 lg:gap-4">
-          <button
-            className={`px-2 lg:px-6 py-2 border border-white rounded-xl ${hide}`}
-          >
-            Conceptual Project
-          </button>
+        <div className="flex gap-1 lg:gap-4">
+          <p className={`${hide}`}>[Conceptual Project]</p>
           {["Design", "Development"].map((item, i) => (
-            <button
-              key={i}
-              className="px-6 py-2 border border-white rounded-xl"
-            >
-              {item}
-            </button>
+            <p key={i}>[{item}]</p>
           ))}
         </div>
       </div>

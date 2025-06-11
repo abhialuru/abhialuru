@@ -2,7 +2,15 @@ import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-function Recommendation() {
+interface RecommendationPropTypes {
+  onMouseEnter: () => void;
+  onMouseLeave: () => void;
+}
+
+function Recommendation({
+  onMouseEnter,
+  onMouseLeave,
+}: RecommendationPropTypes) {
   return (
     <div className="w-full pt-20 p-5 flex flex-col items-center gap-10">
       <h1 className="w-fit ">[Recommendation]</h1>
@@ -10,7 +18,7 @@ function Recommendation() {
         <h3 className="text-2xl font-semibold text-center">
           To Whom it may concern
         </h3>
-        <p>
+        <p onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
           Abhilash took ownership of both the UI/UX design (using Figma) and the
           frontend development (Nextjs, React, Typescript) for our web platform.
           He built an intuitive, responsive user interface, seamlessly

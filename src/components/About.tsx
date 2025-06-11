@@ -10,7 +10,7 @@ interface AboutPropTypes {
 
 function About({ onMouseEnter, onMouseLeave }: AboutPropTypes) {
   return (
-    <section className="w-full md:h-[70vh] lg:h-screen flex flex-col md:flex-row">
+    <section className="w-full md:h-[70vh] lg:h-screen flex flex-col md:flex-row pt-20">
       <div className="w-full h-[70vh] md:w-[50%] md:h-full flex flex-col justify-between p-5">
         <div className="w-full flex justify-between">
           <p>[About me]</p>

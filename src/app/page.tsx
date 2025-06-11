@@ -65,7 +65,10 @@ export default function Home() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       />
-      <Recommendation />
+      <Recommendation
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      />
       <motion.div
         style={{
           WebkitMaskImage: "url('/ellipse.svg')",
