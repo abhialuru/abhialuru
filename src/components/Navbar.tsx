@@ -1,9 +1,15 @@
+import { motion } from "motion/react";
 import Link from "next/link";
 import React from "react";
 
 function Navbar() {
   return (
-    <nav className="w-full flex justify-between">
+    <motion.nav
+      initial={{ y: 50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 4 }}
+      className="w-full flex justify-between"
+    >
       <p>abhialuru</p>
       <ul className="flex gap-6 md:gap-20">
         <li>
@@ -20,7 +26,7 @@ function Navbar() {
           </Link>
         </li>
       </ul>
-    </nav>
+    </motion.nav>
   );
 }
 

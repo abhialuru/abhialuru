@@ -19,11 +19,11 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const time = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
 
-    return () => clearTimeout(timer);
+    return () => clearTimeout(time);
   }, []);
 
   const size = isHovered ? 200 : 40;
@@ -53,6 +53,7 @@ export default function Home() {
   return (
     <main className="relative w-full min-h-screen">
       <AnimatePresence mode="wait">{loading && <Preloader />}</AnimatePresence>
+
       <Hero
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}

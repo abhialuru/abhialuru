@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import { motion } from "motion/react";
 
 interface HeroPropTypes {
   onMouseEnter: () => void;
@@ -35,7 +36,12 @@ function Hero({ onMouseEnter, onMouseLeave }: HeroPropTypes) {
   return (
     <main className="w-full h-[100svh] p-5 flex flex-col font-inter justify-between items-center overflow-hidden">
       <Navbar />
-      <div className="w-full flex justify-between items-center">
+      <motion.div
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 4 }}
+        className="w-full flex justify-between items-center"
+      >
         <div
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
@@ -65,11 +71,16 @@ function Hero({ onMouseEnter, onMouseLeave }: HeroPropTypes) {
             height={200}
           />
         </div>
-      </div>
-      <div className="w-full text-sm gap-20 flex justify-between">
+      </motion.div>
+      <motion.div
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 4 }}
+        className="w-full text-sm gap-20 flex justify-between"
+      >
         <p>CURRENTLY AVAILABLE</p>
         <p>MY LOCAL TIME : {time}</p>
-      </div>
+      </motion.div>
     </main>
   );
 }

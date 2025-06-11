@@ -30,7 +30,7 @@ function Preloader() {
     if (index === words.length - 1) return;
     setTimeout(() => {
       setIndex(index + 1);
-    }, 200);
+    }, 300);
   }, [index]);
 
   return (
