@@ -7,8 +7,8 @@ I combine design thinking and frontend engineering to create seamless user exper
 `Figma` `HTML` `CSS` `JavaScript` `TypeScript` `React` `Next.js` `Tailwind CSS` `SCSS` `Motion/React` `GSAP` `SEO`
 
 ### Reach out
-- **Portfolio:** [https://abhialuru.vercel.app](https://abhialuru.vercel.app)  
-- **LinkedIn:** [linkedin.com/in/abhialuru](https://linkedin.com/in/abhialuru  
+- **Portfolio:** [Link](https://abhialuru.vercel.app)  
+- **LinkedIn:** [Link](https://linkedin.com/in/abhialuru)
 - **Email:** alurabhi9346@gmail.com
  
 ### Featured Projects
