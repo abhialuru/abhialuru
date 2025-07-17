@@ -1,7 +1,7 @@
 # Aluru Abhilash
 
-## Design Engineer | Frontend Designer & Developer
-> I combine design thinking and frontend engineering to create seamless user experiences
+### Design Engineer | Frontend Designer & Developer
+I combine design thinking and frontend engineering to create seamless user experiences
 
 First, run the development server:
 
