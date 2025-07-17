@@ -11,5 +11,4 @@ I combine design thinking and frontend engineering to create seamless user exper
 - **LinkedIn:** [Link](https://linkedin.com/in/abhialuru)
 - **Email:** alurabhi9346@gmail.com
  
-### Featured Projects
 
