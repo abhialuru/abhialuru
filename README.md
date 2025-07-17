@@ -1,6 +1,7 @@
-<h3>Hi! I am Abhilash Aluru</h3>
+# Aluru Abhilash
 
-## Getting Started
+## Design Engineer | Frontend Designer & Developer
+> I combine design thinking and frontend engineering to create seamless user experiences
 
 First, run the development server:
 
