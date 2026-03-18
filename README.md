@@ -1,14 +1,14 @@
 # Aluru Abhilash
 
-## Design Engineer | Frontend Designer & Developer
+## Full-stack Engineer | Frontend Designer & Developer
 
-I combine design thinking with frontend engineering to craft intuitive and high-performance user interfaces. With a strong focus on SEO and accessibility, I ensure that every website I build not only looks great but performs exceptionally across all devices and platforms.
+Full-stack Engineer building production-grade web applications for AI startups. Experienced in building scalable frontend systems with React, Next.js, and TypeScript while actively developing backend services using Node.js and Express. Comfortable owning features end-to-end from UI to APIs and database design.  
 
 ---
 
 ## Skills & Technologies
 
-`Figma` `HTML` `CSS` `JavaScript` `TypeScript` `React` `Next.js` `Tailwind CSS` `SCSS` `Motion/React` `GSAP` `SEO`
+`TypeScript` `React` `Next.js` `Tailwind CSS` `Node.js` `Express.js` `Mongo DB` `Postgres SQL` `SCSS` `Motion/React` `GSAP` `SEO` `Figma` `HTML` `CSS` `JavaScript`
 
 ---
 
