@@ -2,7 +2,7 @@
 
 ## Frontend Engineer
 
-Full-stack Engineer building production-grade web applications for AI startups. Experienced in building scalable frontend systems with React, Next.js, and TypeScript while actively developing backend services using Node.js and Express. Comfortable owning features end-to-end from UI to APIs and database design.  
+Frontend Engineer building production-grade web applications for AI startups. Experienced in building scalable frontend systems with React, Next.js, and TypeScript while actively developing backend services using Node.js and Express. Comfortable owning features end-to-end from UI to APIs and database design.  
 
 ---
 
